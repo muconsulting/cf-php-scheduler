@@ -1,0 +1,10 @@
+{
+  "name": "muconsulting/cf-php-scheduler",
+  "homepage": "https://github.com/muconsulting/cf-php-scheduler",
+  "license": "MIT",
+  "description": "Manage all your cron jobs without modifying crontab. Handles locking, logging, error emails, and more.",
+  "require": {
+    "php": ">=5.3.0",
+    "hellogerard/jobby": "dev-master"
+  }
+}

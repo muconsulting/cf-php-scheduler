@@ -1,0 +1,11 @@
+---
+applications:
+- name: php-app
+  memory: 64M
+  instances: 1
+  host: php-app
+  path: .
+  buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack.git
+  no-route: true
+  env:
+    BP_DEBUG: "true"
